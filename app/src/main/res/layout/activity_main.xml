@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    tools:context="com.example.german.weatherapp.MainActivity">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityspinner"
+        android:gravity="center"
+        android:minHeight="20dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="@string/choose_additional_settings" />-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/checkBox_pressure"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/pressure" />-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/checkBox_weather_icon"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/weather_picture" />-->
+
+    <Button
+        android:id="@+id/checkweatherbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_weather" />
+</LinearLayout>
+

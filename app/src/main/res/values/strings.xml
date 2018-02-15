@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="check_weather">Show me a weather</string>
+    <string name="showtextview">TextView</string>
+    <string name="pressure">Pressure</string>
+    <string name="weather_picture">Weather picture</string>
+    <string name="choose_additional_settings">Choose additional settings</string>
+    <string name="temperature">Temperature</string>
+    <string name="showpressure">Pressure</string>
+    <string name="weather_in_city">Weather in city:</string>
+    <string name="weathericon">weatherIcon</string>
+    <string name="add_menu">Settings</string>
+    <string name="clear_menu">Clear menu</string>
+    <string name="gradus">°C</string>
+    <string name="bar">bar</string>
+</resources>
